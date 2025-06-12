@@ -1,12 +1,14 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import ContactPage from "./pages/Contact";
+import RegisterPage from "./pages/Register";
 
-export default function App() {
+function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<ContactPage />} />
+        <Route path="/" element={<RegisterPage />} />
       </Routes>
     </BrowserRouter>
   );
 }
+
+export default App;
